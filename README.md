@@ -2,17 +2,6 @@
 
 <div align="center">
 
-<!-- [[Website]](https://rpl-cs-ucl.github.io/SDSweb/) -->
-<!-- [[arXiv]](https://arxiv.org/abs/2406.01967) -->
-<!-- [[PDF]](https://eureka-research.github.io/dr-eureka/assets/dreureka-paper.pdf) -->
-
-[Jeffrey Li\*](https://jelipenguin.github.io/), [Maria Stamatopoulou\*](https://maniast.github.io/), [Dimitrios Kanoulas](https://dkanou.github.io/)
-
-Robot Perception and Learning (RPL) , University College London
-
-[[Website]](https://rpl-cs-ucl.github.io/SDSweb/)
-[[Paper]](https://arxiv.org/abs/2410.11571)
-
 </div>
 In this work we present See it. Do it. Sorted. : Quadruped Skill Synthesis from Single Video Demonstration. We provide a simulation environemnt to train low-level skill policies from demonstration videos, using GPT-4o. We also offer a pipeline to implemnet the learned skills on the on-board GPU of the real robot agent.
 
@@ -174,16 +163,4 @@ Our deployment infrastructure is based on [Walk These Ways](https://github.com/I
 - Agent training and simulation were done in [IsaacGym](https://developer.nvidia.com/isaac-gym).
 - The code is built upon the "[DrEureka: Language Model Guided Sim-to-Real Transfer](https://github.com/eureka-research/DrEureka)" codebase.
 
-## Citation
 
-```bibtex
-@misc{li2024,
-      title={SDS -- See it, Do it, Sorted: Quadruped Skill Synthesis from Single Video Demonstration}, 
-      author={Jeffrey Li and Maria Stamatopoulou and Dimitrios Kanoulas},
-      year={2024},
-      eprint={2410.11571},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2410.11571}, 
-}
-```
